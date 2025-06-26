@@ -16,7 +16,7 @@ body {
   width: 60px;
   height: auto;
 }
-.navbar-brand {
+.nav-item {
   font-size: 15px;
   border: 2px;
   border-style: solid;
