@@ -9,32 +9,48 @@ body {
   font-family: "League Spartan", sans-serif;
 }
 /* navbar */
-.navbar {
-  background-color: lightgray;
+.nav-menu {
+  background-color: #D9D9D9;
+  padding: 0;
 }
 .logo-navbar {
-  width: 60px;
-  height: auto;
+  width: 90px;
+  height: 60px;
 }
-.nav-item {
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.nav-button {
+  background-color: #8BD9BC;
+}
+.nav-seccion {
+  background-color: #8BD9BC;
+  margin: 15px;
   font-size: 15px;
-  border: 2px;
-  border-style: solid;
   border-radius: 10px;
-  padding: 5px 5px;
+  padding: 3px;
+}
+.nav-seccion {
+  padding: 5px;
+  margin: 40px;
 }
 .logo-modalidad {
   width: 90px;
   height: auto;
   text-align: center;
 }
+
+/*inicio*/
 h1 {
   font-weight: 900;
   text-decoration: underline;
 }
 /* footer */
-.pie-de-pagina {
-  background-color: lightgray;
+.footer-web {
+  padding: 0;
 }
 .logo {
   width: 40px;
@@ -47,10 +63,10 @@ h1 {
   padding: 5px 5px;
   margin: 5px 5px;
 } 
-.list-group-item {
+.redes-footer {
   background-color: lightgray;
 }
-.list-group-item a {
+.redes-footer a {
   text-decoration: none;
   color: black;
   padding: 5px 5px;
@@ -64,7 +80,12 @@ h1 {
   height: auto;
 }
 
-
+/*contacto*/
+.button-form {
+  background-color: lightgray;
+  border-radius: 5px 5px;
+  margin: 10px;
+}
 
 
 

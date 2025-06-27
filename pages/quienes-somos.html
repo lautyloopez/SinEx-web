@@ -9,17 +9,34 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-            <nav class="navbar">
+        <nav class="navbar navbar-expand-lg nav-menu">
+            <div class="container-fluid">
                 <img class="logo-navbar" src="../img/logos-sinex/sinex-logo.png" alt="Logo-SinEx">
-                <a class="navbar-brand" href="#">Inicio</a>
-                <a class="navbar-brand" href="./pages/quienes-somos.html">¿Quienes somos?</a>
-                <a class="navbar-brand" href="./pages/modalidades.html">Modalidades</a>
-                <a class="navbar-brand" href="./pages/opiniones.html">Opiniones</a>
-                <a class="navbar-brand" href="./pages/contacto.html">Contacto</a>
+                <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-list" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-secciones">
+                        <li class="nav-item nav-seccion">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item nav-seccion">
+                            <a class="nav-link nav-modalidades" href="/pages/modalidades.html">Modalidades</a>
+                        </li>
+                        <li class="nav-item nav-seccion">
+                            <a class="nav-link nav-opiniones" href="/pages/opiniones.html">Opiniones</a>
+                        </li>
+                        <li class="nav-item nav-seccion">
+                            <a class="nav-link nav-contacto" href="/pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item nav-seccion">
+                            <a class="nav-link nav-quienes.somos" href="#">¿Quienes somos?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             </nav>
-        </div>
-    </header>
+        </header> 
 <main>
     <h1>SinEx</h1>
     <section class="descripcion-marca">
@@ -30,20 +47,21 @@
     </section>
 </main>
 <footer>
-    <div class="card" style="width: 100%;">
-        <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-            <img src="../img/./logos-redes/twitter.jpg" alt="logo twitter" class="logo-redes">
-                <a href="https://x.com/home">Nuestro Twitter</a></li>
-        <li class="list-group-item">
-            <img src="../img/./logos-redes/instagram.jpg" alt="logo instagram" class="logo-redes">
-            <a href="https://www.instagram.com">Nuestro instagram</a>
-        </li>
-        <li class="list-group-item">
-            <img src="../img/./logos-redes/tiktok.png" alt="logo tiktok" class="logo-redes">
-            <a href="https://www.tiktok.com/">Nuestro TikTok</a></li>
-        </ul>
-    </div>
+        <div class="container-fluid card footer-web">
+            <ul class="list-group list-group-flush footer-redes">
+                <li class="list-group-item redes-footer">
+                    <img src="../img/./logos-redes/twitter.jpg" alt="logo twitter" class="logo-redes">
+                    <a href="https://x.com/home">Nuestro Twitter</a></li>
+                <li class="list-group-item redes-footer">
+                    <img src="../img/./logos-redes/instagram.jpg" alt="logo instagram" class="logo-redes">
+                    <a href="https://www.instagram.com">Nuestro instagram</a>
+                </li>
+                <li class="list-group-item redes-footer"> 
+                    <img src="../img/./logos-redes/tiktok.png" alt="logo tiktok" class="logo-redes">
+                    <a href="https://www.tiktok.com/">Nuestro TikTok</a>
+                </li>
+            </ul>
+        </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
