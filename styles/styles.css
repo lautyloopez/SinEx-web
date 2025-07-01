@@ -151,8 +151,10 @@ p {
 /*quienes somos*/
 
 .fotos-modalidades {
-  width: 30%;
-  margin-left: 450px;
+  max-width: 30%;
+  margin: 0 auto;
+  justify-content: center;
+  
 }
 
 .descripciones {
@@ -160,7 +162,11 @@ p {
   margin-left: 20px;
 }
 
-
+.carrousel-fotos img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
 
 
 
