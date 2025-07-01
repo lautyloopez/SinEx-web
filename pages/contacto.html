@@ -4,57 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - SinEx</title>
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg nav-menu">
-            <div class="container-fluid">
-                <img class="logo-navbar" src="../img/logos-sinex/sinex-logo.png" alt="Logo-SinEx">
-                <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse nav-list" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-secciones">
-            <li class="nav-item nav-seccion">
-            <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item nav-seccion">
-            <a class="nav-link nav-modalidades" href="/pages/modalidades.html">Modalidades</a>
-            </li>
-            <li class="nav-item nav-seccion">
-            <a class="nav-link nav-opiniones" href="/pages/opiniones.html">Opiniones</a>
-            </li>
-            <li class="nav-item nav-seccion">
-            <a class="nav-link nav-contacto" href="#">Contacto</a>
-            </li>
-            <li class="nav-item nav-seccion">
-            <a class="nav-link nav-quienes.somos" href="/pages/quienes-somos.html">¿Quienes somos?</a>
-            </li>
-            </ul>
-            </div>
-            </div>
-        </nav>
-        </header> 
+            <div class="container-fluid nav-content">
+                    <img class="logo-navbar" src="../img/logos-sinex/sinex-logo.png" alt="Logo-SinEx">
+                    <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-list" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-secciones">
+                            <li class="nav-item nav-seccion">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item nav-seccion">
+                                <a class="nav-link nav-modalidades" href="/pages/modalidades.html">Modalidades</a>
+                            </li>
+                            <li class="nav-item nav-seccion">
+                                <a class="nav-link nav-opiniones" href="/pages/opiniones.html">Opiniones</a>
+                            </li>
+                            <li class="nav-item nav-seccion">
+                                <a class="nav-link nav-contacto" href="#">Contacto</a>
+                            </li>
+                            <li class="nav-item nav-seccion">
+                                <a class="nav-link nav-quienes.somos" href="/pages/quienes-somos.html">¿Quienes somos?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header> 
     <main>
-        <section class="container-fluid">
+        <section class="container-fluid tutorial-contacto">
             <h1>SinEx</h1>
-            <ol class="pasos-de-contacto">
-                <li>
-                    <h3>Elegí tu modalidad preferida</h3>
-                    <p>Antes de escribirnos, pensá cómo te gustaría entrenar: de forma presencial, a distancia o en modalidad mixta. No hace falta tener todo definido, pero esto nos ayuda a orientarte mejor desde el primer contacto.</p>
-                </li>
-                <li>
-                    <h3>Dejanos tus datos</h3>
-                    <p>Podés contactarnos por WhatsApp, Instagram o mediante el formulario web. Contanos brevemente quién sos, qué buscás con tu entrenamiento y qué días/horarios te vendrían bien. Respondemos siempre dentro de las 24 hs.</p>
-                </li>
-                <li>
-                    <h3>Coordinamos tu primera reunion sin compromiso</h3>
-                    <p>Te proponemos una breve reunión virtual o presencial para conocernos, responder tus dudas y contarte cómo sería tu plan personalizado. Sin presión, sin contratos: solo un primer paso claro para empezar a entrenar con propósito.</p>
-                </li>
-            </ol>
-    </section>
+                <ol class="pasos-de-contacto">
+                    <li>
+                        <h3>Elegí tu modalidad preferida</h3>
+                        <p>Antes de escribirnos, pensá cómo te gustaría entrenar: de forma presencial, a distancia o en modalidad mixta. No hace falta tener todo definido, pero esto nos ayuda a orientarte mejor desde el primer contacto.</p>
+                    </li>
+                    <li>
+                        <h3>Dejanos tus datos</h3>
+                        <p>Podés contactarnos por WhatsApp, Instagram o mediante el formulario web. Nosotros te contactamos para que nos cuentes brevemente quién sos, qué buscás con tu entrenamiento y qué días/horarios te vendrían bien. Respondemos siempre dentro de las 24 hs.</p>
+                    </li>
+                    <li>
+                        <h3>Coordinamos tu primera reunion sin compromiso</h3>
+                        <p>Te proponemos una breve reunión virtual o presencial para conocernos, responder tus dudas y contarte cómo sería tu plan personalizado. Sin presión, sin contratos: solo un primer paso claro para empezar a entrenar con propósito.</p>
+                    </li>
+                </ol>
+        </section>
     <aside class="container formulario">
         <form class="row">
             <div class="col-md-3 form-contacto">
@@ -62,12 +64,12 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="col-md-3 form-contacto">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputPassword1" class="form-label">e-mail</label>
+                <input type="textarea" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="col-md-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <label class="form-check-label" for="exampleCheck1">Quiero recibir informacion por e-mail</label>
             </div>
             <button type="submit" class="button-form">Enviar</button>
         </form>

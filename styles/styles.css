@@ -5,7 +5,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1 {
+  font-weight: 900;
+  text-decoration: underline;
+  text-align: center;
+}
 body {
+  background-color: #D9D9D9;
   font-family: "League Spartan", sans-serif;
 }
 /* navbar */
@@ -44,9 +50,32 @@ body {
 }
 
 /*inicio*/
-h1 {
+.titulo-main {
   font-weight: 900;
   text-decoration: underline;
+}
+
+.p-main {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  padding: 0;
+}
+
+.main-content {
+  text-align: center;
+  justify-content: center;
+}
+
+.modalidad-logo {
+  margin-bottom: 5px;
+}
+.descripcion-inicio {
+  margin-top: 5px;
+  margin-bottom: 4px;
 }
 /* footer */
 .footer-web {
@@ -64,7 +93,7 @@ h1 {
   margin: 5px 5px;
 } 
 .redes-footer {
-  background-color: lightgray;
+  background-color: #D9D9D9;
 }
 .redes-footer a {
   text-decoration: none;
@@ -82,18 +111,54 @@ h1 {
 
 /*contacto*/
 .button-form {
-  background-color: lightgray;
+  background-color: #D9D9D9;
   border-radius: 5px 5px;
   margin: 10px;
+  width: 80px;
+}
+
+.form.contacto {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.tutorial-contacto h3 {
+  font-style: italic;
 }
 
 
+/*modalidades*/
 
+.info-modalidades h3 {
+  margin-left: 15px;
+  font-weight: 500;
+}
 
+.info-modalidades p {
+  margin-left: 15px;
+}
 
+/*opiniones*/
 
+.opiniones {
+  font-style: italic;
+}
 
+.opiniones p {
+  font-size: medium;
+}
 
+/*quienes somos*/
+
+.fotos-modalidades {
+  width: 30%;
+  margin-left: 450px;
+}
+
+.descripciones {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
 
 
 
