@@ -1,0 +1,30 @@
+@use "../utilities/variables"; 
+body { 
+    background-color: variables.$color-primario;
+    font-family: "League Spartan", sans-serif;
+    main {
+    font-size: variables.$tamaño-fuente;
+    font-family: "League Spartan", sans-serif;
+        h1 {
+            font-weight: 900;
+            text-decoration: underline;
+            text-align: center;
+        }
+        h2 {
+            font-size: x-large;
+            margin-top: 15px;
+        }
+        .main-content {
+            text-align: center;
+            justify-content: center;
+            p {
+            text-align: center;
+            }
+            .logo-modalidad {
+                width: variables.$ancho-img;
+                height: variables.$alto-img;
+                text-align: center;
+            }
+        }
+    }   
+}

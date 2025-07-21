@@ -1,0 +1,18 @@
+.descripciones {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.fotos-modalidades {
+    max-width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    .carrousel-fotos {
+        img {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        }
+    }   
+}

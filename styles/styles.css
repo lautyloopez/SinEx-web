@@ -1,160 +1,137 @@
+@charset "UTF-8";
+/*ACA SOLO TIPEO ENRUTADOS A COMPONENTS@*/
+/*BASE*/
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
-/*font-family: "League Spartan", sans-serif;*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-h1 {
-  font-weight: 900;
-  text-decoration: underline;
-  text-align: center;
-}
-body {
-  background-color: #D9D9D9;
-  font-family: "League Spartan", sans-serif;
-}
-/* navbar */
+
+/*COMPONENTS*/
 .nav-menu {
   background-color: #D9D9D9;
-  padding: 0;
 }
-.logo-navbar {
+.nav-menu .nav-content .logo-navbar {
   width: 90px;
   height: 60px;
 }
-.nav-list {
+.nav-menu .nav-content .nav-button {
+  background-color: #8BD9BC;
+}
+.nav-menu .nav-content .nav-list {
   width: 100%;
-  display: flex;
   justify-content: center;
   text-align: center;
 }
-.nav-button {
+.nav-menu .nav-content .nav-list .nav-seccion {
   background-color: #8BD9BC;
-}
-.nav-seccion {
-  background-color: #8BD9BC;
-  margin: 15px;
+  margin: 40px;
   font-size: 15px;
   border-radius: 10px;
-  padding: 3px;
-}
-.nav-seccion {
   padding: 5px;
-  margin: 40px;
 }
-.logo-modalidad {
-  width: 90px;
-  height: auto;
-  text-align: center;
+.nav-menu .nav-content .nav-list .nav-seccion:hover {
+  transform: scale(1.05);
 }
 
-/*inicio*/
-.titulo-main {
-  font-weight: 900;
-  text-decoration: underline;
-}
-
-.p-main {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-p {
-  margin-top: 0;
-  padding: 0;
-}
-
-.main-content {
-  text-align: center;
-  justify-content: center;
-}
-
-.modalidad-logo {
-  margin-bottom: 5px;
-}
-.descripcion-inicio {
-  margin-top: 5px;
-  margin-bottom: 4px;
-}
-/* footer */
 .footer-web {
   padding: 0;
 }
-.logo {
-  width: 40px;
-  height: auto;
-}
-  
-.logo-redes {
+.footer-web .logo-redes {
   width: 40px;
   height: auto;
   padding: 5px 5px;
   margin: 5px 5px;
-} 
-.redes-footer {
+}
+.footer-web .redes-footer {
   background-color: #D9D9D9;
 }
-.redes-footer a {
+.footer-web .redes-footer a {
   text-decoration: none;
   color: black;
   padding: 5px 5px;
   margin: 5px 5px;
+  font-size: 12px;
 }
 
-/*modalidades*/
-
-.modalidades {
+body {
+  background-color: #D9D9D9;
+  font-family: "League Spartan", sans-serif;
+}
+body main {
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+}
+body main h1 {
+  font-weight: 900;
+  text-decoration: underline;
+  text-align: center;
+}
+body main h2 {
+  font-size: x-large;
+  margin-top: 15px;
+}
+body main .main-content {
+  text-align: center;
+  justify-content: center;
+}
+body main .main-content p {
+  text-align: center;
+}
+body main .main-content .logo-modalidad {
   width: 90px;
   height: auto;
+  text-align: center;
 }
 
-/*contacto*/
-.button-form {
+.info-modalidades {
+  margin-left: 15px;
+}
+.info-modalidades h3 {
+  margin-left: 15px;
+  font-weight: 500;
+}
+.info-modalidades p {
+  margin-left: 15px;
+}
+
+/*ACA AGREGAR ANIMACIÓN A CARD CON &hover*/
+h2 {
+  margin-left: 15px;
+}
+
+.opiniones {
   background-color: #D9D9D9;
-  border-radius: 5px 5px;
+  border: 2px black solid;
+  border-radius: 10px;
   margin: 10px;
-  width: 80px;
+  padding: 5px;
+  font-style: italic;
+  font-size: medium;
 }
-
-.form.contacto {
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+.opiniones:hover {
+  background-color: #444444;
+  transform: scale(1.01);
+  color: white;
 }
 
 .tutorial-contacto h3 {
   font-style: italic;
 }
-
-
-/*modalidades*/
-
-.info-modalidades h3 {
-  margin-left: 15px;
-  font-weight: 500;
+.tutorial-contacto .form-contacto {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
-.info-modalidades p {
-  margin-left: 15px;
+.button-form {
+  background-color: #D9D9D9;
+  border-radius: 5px 5px;
+  margin: 10px;
+  width: 70px;
 }
-
-/*opiniones*/
-
-.opiniones {
-  font-style: italic;
-}
-
-.opiniones p {
-  font-size: medium;
-}
-
-/*quienes somos*/
-
-.fotos-modalidades {
-  max-width: 30%;
-  margin: 0 auto;
-  justify-content: center;
-  
+.button-form:hover {
+  background-color: #8BD9BC;
+  transform: scale(1.03);
 }
 
 .descripciones {
@@ -162,9 +139,17 @@ p {
   margin-left: 20px;
 }
 
-.carrousel-fotos img {
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+.fotos-modalidades {
+  max-width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.fotos-modalidades .carrousel-fotos img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
 }
 
+/*# sourceMappingURL=styles.css.map */

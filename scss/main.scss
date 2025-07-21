@@ -1,0 +1,13 @@
+/*ACA SOLO TIPEO ENRUTADOS A COMPONENTS@*/
+
+/*BASE*/
+@use "./partials/base/reset";
+@use "./partials/base/font";
+/*COMPONENTS*/
+@use "./partials/components/navbar";
+@use "./partials/components/footer";
+@use "./partials/components/index";
+@use "./partials/components/modalidades";
+@use "./partials/components/opiniones";
+@use "./partials/components/contacto";
+@use "./partials/components/quienes-somos";

@@ -1,0 +1,20 @@
+@use "../utilities/variables";
+.tutorial-contacto {
+    h3 {
+        font-style: italic;
+    }
+    .form-contacto {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+.button-form {
+    background-color:  variables.$color-primario;
+    border-radius: 5px 5px;
+    margin: 10px;
+    width: 70px;
+    &:hover {
+        background-color: variables.$color-secundario;
+        transform: scale(1.03);
+    }
+}

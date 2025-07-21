@@ -1,0 +1,28 @@
+@use "../utilities/variables";
+.nav-menu {
+        background-color:#D9D9D9;
+        .nav-content {
+                .logo-navbar {
+                        width: 90px;
+                        height: 60px;
+                }
+                .nav-button {
+                        background-color: variables.$color-secundario;
+                }
+                .nav-list {
+                        width: 100%;
+                        justify-content: center;
+                        text-align: center;
+                        .nav-seccion {
+                        background-color: variables.$color-secundario;
+                        margin: 40px;
+                        font-size: 15px;
+                        border-radius: 10px;
+                        padding: 5px;
+                        &:hover {
+                                transform: scale(1.05);
+                                }
+                        }
+                }                
+        }
+}

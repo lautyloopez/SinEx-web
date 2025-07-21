@@ -1,0 +1,20 @@
+@use "../utilities/variables";
+.footer-web {
+    padding: 0;
+    .logo-redes {
+        width: 40px;
+        height:auto;
+        padding: 5px 5px;
+        margin: 5px 5px;
+    }
+    .redes-footer {
+        background-color: variables.$color-primario;
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 5px 5px;
+            margin: 5px 5px;
+            font-size: 12px;
+        }
+    }
+}
