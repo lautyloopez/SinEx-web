@@ -1,0 +1,6 @@
+@mixin layout($margin,$padding, $text-align, $justify-content) {
+    margin: $margin;
+    padding: $padding;
+    text-align: $text-align;
+    justify-content: $justify-content;
+}

@@ -1,10 +1,12 @@
 .info-modalidades {
     margin-left: 15px;
     h3 {
-        margin-left: 15px;
+        @extend .info-modalidades;
+        // margin-left: 15px;
         font-weight: 500;
     }
     p {
-        margin-left: 15px;
+        @extend .info-modalidades;
+        // margin-left: 15px;
     }
 }

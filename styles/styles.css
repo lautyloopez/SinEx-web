@@ -1,13 +1,10 @@
 @charset "UTF-8";
-/*ACA SOLO TIPEO ENRUTADOS A COMPONENTS@*/
-/*BASE*/
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-/*COMPONENTS*/
 .nav-menu {
   background-color: #D9D9D9;
 }
@@ -19,7 +16,7 @@
   background-color: #8BD9BC;
 }
 .nav-menu .nav-content .nav-list {
-  width: 100%;
+  width: 80%;
   justify-content: center;
   text-align: center;
 }
@@ -50,7 +47,10 @@
   text-decoration: none;
   color: black;
   padding: 5px 5px;
-  margin: 5px 5px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
   font-size: 12px;
 }
 
@@ -65,36 +65,30 @@ body main {
 body main h1 {
   font-weight: 900;
   text-decoration: underline;
-  text-align: center;
 }
 body main h2 {
   font-size: x-large;
   margin-top: 15px;
 }
-body main .main-content {
+body main .main-content, body main h1 {
   text-align: center;
   justify-content: center;
 }
-body main .main-content p {
+body main .main-content p, body main h1 p {
   text-align: center;
 }
-body main .main-content .logo-modalidad {
+body main .main-content .logo-modalidad, body main h1 .logo-modalidad {
   width: 90px;
   height: auto;
   text-align: center;
 }
 
-.info-modalidades {
+.info-modalidades, .info-modalidades p, .info-modalidades h3 {
   margin-left: 15px;
 }
 .info-modalidades h3 {
-  margin-left: 15px;
   font-weight: 500;
 }
-.info-modalidades p {
-  margin-left: 15px;
-}
-
 /*ACA AGREGAR ANIMACIÓN A CARD CON &hover*/
 h2 {
   margin-left: 15px;
@@ -107,7 +101,7 @@ h2 {
   margin: 10px;
   padding: 5px;
   font-style: italic;
-  font-size: medium;
+  font-size: 15px;
 }
 .opiniones:hover {
   background-color: #444444;
@@ -135,6 +129,7 @@ h2 {
 }
 
 .descripciones {
+  font-size: 18px;
   margin-bottom: 30px;
   margin-left: 20px;
 }

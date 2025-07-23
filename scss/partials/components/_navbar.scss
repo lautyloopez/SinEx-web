@@ -10,7 +10,7 @@
                         background-color: variables.$color-secundario;
                 }
                 .nav-list {
-                        width: 100%;
+                        width: 80%;
                         justify-content: center;
                         text-align: center;
                         .nav-seccion {
@@ -18,7 +18,7 @@
                         margin: 40px;
                         font-size: 15px;
                         border-radius: 10px;
-                        padding: 5px;
+                        padding:5px;
                         &:hover {
                                 transform: scale(1.05);
                                 }
