@@ -8,7 +8,6 @@ body {
         h1 {
             font-weight: 900;
             text-decoration: underline;
-            // text-align: center;
             @extend .main-content;
         }
         h2 {
