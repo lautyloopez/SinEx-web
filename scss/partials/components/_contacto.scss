@@ -1,20 +1,70 @@
 @use "../utilities/variables";
-.tutorial-contacto {
+
+.tutorial-contacto { 
+    margin-bottom: 40px;
     h3 {
-        font-style: italic;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 20px;
     }
-    .form-contacto {
-        margin-bottom: 5px;
-        margin-top: 5px;
+    .pasos-de-contacto {
+        list-style: decimal;
+        padding-left: 20px;
+        li {
+            margin-bottom: 20px;
+            h3 {
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
     }
 }
-.button-form {
-    background-color:  variables.$color-primario;
-    border-radius: 5px 5px;
-    margin: 10px;
-    width: 70px;
-    &:hover {
-        background-color: variables.$color-secundario;
-        transform: scale(1.03);
+.formulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+
+        .form-contacto {
+        flex: 1 1 200px;
+        label {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        input {
+            font-size: 14px;
+            padding: 6px 8px;
+        }
+        }
+        .form-check {
+        flex: 1 1 100%;
+        label {
+            font-size: 14px;
+        }
+        }
+        .button-form {
+            background-color:  variables.$color-primario;
+            border-radius: 5px 5px;
+            font-size: 14px;
+            margin: 10px;
+            padding: 10px 20px;
+            width: 80px;
+            &:hover {
+                background-color: variables.$color-secundario;
+                transform: scale(1.03);
+            }
+        }
     }
 }

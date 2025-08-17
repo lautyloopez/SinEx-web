@@ -1,3 +1,13 @@
+.sinex-filosofia {
+    @extend .info-modalidades
+}
+.intro-modalidades {
+    @extend .info-modalidades;
+    h3 {
+        text-align: start;
+        justify-content: start;
+    }
+}
 .info-modalidades {
     margin-left: 15px;
     h3 {

@@ -57,9 +57,68 @@ body {
   background-color: #D9D9D9;
   font-family: "League Spartan", sans-serif;
 }
-body main {
-  font-size: 15px;
-  font-family: "League Spartan", sans-serif;
+body main .servicios {
+  margin-bottom: 40px;
+}
+body main .servicios ul {
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+body main .servicios ul li {
+  margin-bottom: 15px;
+}
+body main .servicios ul li strong {
+  text-decoration: underline;
+  font-size: 20px;
+}
+body main .servicios ul li p {
+  font-size: 16px;
+  margin: 5px 0 0 0;
+}
+body main h3 {
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+}
+body main .contacto-info {
+  text-decoration: underline;
+}
+body main .beneficios {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px 0;
+}
+body main .beneficios p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+}
+body main .beneficios .beneficios-lista {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+body main .beneficios .beneficios-lista li {
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  padding: 1.2em 24px;
+  display: flex;
+  flex-direction: column;
+}
+body main .beneficios .beneficios-lista li h5 {
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+}
+body main .beneficios .beneficios-lista li p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+  margin-left: 3.5px;
 }
 body main h1 {
   font-weight: 900;
@@ -82,13 +141,26 @@ body main .main-content .logo-modalidad, body main h1 .logo-modalidad {
   text-align: center;
 }
 
-.info-modalidades, .info-modalidades p, .info-modalidades h3 {
+.intro-modalidades h3 {
+  text-align: start;
+  justify-content: start;
+}
+
+.info-modalidades, .info-modalidades p, .sinex-filosofia p, .intro-modalidades p, .info-modalidades h3, .sinex-filosofia h3, .intro-modalidades h3, .sinex-filosofia, .intro-modalidades {
   margin-left: 15px;
 }
-.info-modalidades h3 {
+.info-modalidades h3, .sinex-filosofia h3, .intro-modalidades h3 {
   font-weight: 500;
 }
+.titulo-opiniones {
+  text-align: start;
+  justify-content: start;
+  text-decoration: underline;
+}
+
 h2 {
+  justify-content: center;
+  text-align: center;
   margin-left: 15px;
 }
 
@@ -107,42 +179,150 @@ h2 {
   color: white;
 }
 
-.tutorial-contacto h3 {
-  font-style: italic;
+.tutorial-contacto {
+  margin-bottom: 40px;
 }
-.tutorial-contacto .form-contacto {
+.tutorial-contacto h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.tutorial-contacto .pasos-de-contacto {
+  list-style: decimal;
+  padding-left: 20px;
+}
+.tutorial-contacto .pasos-de-contacto li {
+  margin-bottom: 20px;
+}
+.tutorial-contacto .pasos-de-contacto li h3 {
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 5px;
-  margin-top: 5px;
+}
+.tutorial-contacto .pasos-de-contacto li p {
+  font-size: 16px;
 }
 
-.button-form {
+.formulario {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+.formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+.formulario form .form-contacto {
+  flex: 1 1 200px;
+}
+.formulario form .form-contacto label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.formulario form .form-contacto input {
+  font-size: 14px;
+  padding: 6px 8px;
+}
+.formulario form .form-check {
+  flex: 1 1 100%;
+}
+.formulario form .form-check label {
+  font-size: 14px;
+}
+.formulario form .button-form {
   background-color: #D9D9D9;
   border-radius: 5px 5px;
+  font-size: 14px;
   margin: 10px;
-  width: 70px;
+  padding: 10px 20px;
+  width: 80px;
 }
-.button-form:hover {
+.formulario form .button-form:hover {
   background-color: #8BD9BC;
   transform: scale(1.03);
 }
 
-.descripciones {
-  font-size: 18px;
-  margin-bottom: 30px;
-  margin-left: 20px;
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.intro-quienes {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+}
+
+.intro-quienes h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.intro-quienes p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.lista-servicios {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.lista-servicios li {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.equipo {
+  max-width: 700px;
+  margin: 20px auto 40px auto;
+}
+
+.equipo h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #333;
+  text-align: left;
+  justify-content: start;
+}
+
+.equipo p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555;
 }
 
 .fotos-modalidades {
-  max-width: 30%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  margin-top: 40px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.fotos-modalidades .carrousel-fotos img {
-  margin: 0 auto;
-  max-width: 100%;
+
+.carrousel-fotos img {
+  width: 100%;
   height: auto;
-  text-align: center;
+  border-radius: 8px;
+}
+
+.descripciones {
+  max-width: 700px;
+  margin: 30px auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555;
+  text-align: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
